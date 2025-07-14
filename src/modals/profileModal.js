@@ -13,7 +13,7 @@ export function createProfile() {
     modalBox.innerHTML = `
         <div class="flex flex-row items-center gap-3 mb-6">
             <button class="close-modal flex items-center justify-center w-10 h-10 rounded-full dark:hover:bg-white/10 hover:bg-black/10 transition-colors">
-                <img src="../assets/public/fechar.svg" class="dark:brightness-100 invert-0 brightness-0"/>
+                <img src="../../public/icons/close.svg" class="dark:brightness-100 invert-0 brightness-0"/>
             </button>
 
             <h1 class="text-3xl font-bold text-yellow-400 text-center tracking-tighter flex-1 mr-10">Perfil</h1>
@@ -22,20 +22,20 @@ export function createProfile() {
         <div class="flex flex-col gap-8 justify-beetwen items-center">
             <div class="flex flex-row w-full justify-around items-center">
                 <button class="toggle-theme w-12 h-12 rounded-full bg-gradient-to-br from-yellow-400 to-yellow-500 flex items-center justify-center">
-                    <img src="../assets/public/darkMode.svg" />
+                    <img src="../../public/icons/dark.svg" />
                 </button>
 
                 <div class="relative">
                     <img class="h-24 w-24 rounded-full object-cover border-2 border-white/20" src="./../assets/public/fotoTeste.jpg">
 
                     <label class="absolute bottom-0 right-0 bg-yellow-500 rounded-full p-1 hover:bg-yellow-600 transition-colors cursor-pointer">
-                        <img src="../assets/public/addPhoto.svg" />
+                        <img src="../../public/icons/photo.svg" />
                         <input id="insert-photo" type="file" accept="image/*" class="hidden" />
                     </label>
                 </div>
 
                 <button class="w-12 h-12 rounded-full bg-gradient-to-br from-yellow-400 to-yellow-500 flex items-center justify-center">
-                    <img src="../assets/public/logout.svg" class="w-6 h-6" />
+                    <img src="../../public/icons/logout.svg" class="w-6 h-6" />
                 </button>
             </div>
 

@@ -41,35 +41,35 @@ const lineTwo = document.querySelector("#line-two");
 
 lineOne.appendChild(createGameButton({
     id: "pondeto",
-    icon: "../assets/public/typeGame.svg",
+    icon: "../../public/icons/secret.svg",
     imgClass: "invert-0 brightness-0 dark:brightness-100 dark:invert-none",
     label: "Pondeto"
 }));
 
 lineOne.appendChild(createGameButton({
     id: "diario",
-    icon: "../assets/public/typeGame.svg",
+    icon: "../../public/icons/secret.svg",
     imgClass: "invert-0 brightness-0 dark:brightness-100 dark:invert-none",
     label: "Diário"
 }));
 
 lineOne.appendChild(createGameButton({
     id: "ponteto",
-    icon: "../assets/public/typeGame.svg",
+    icon: "../../public/icons/secret.svg",
     imgClass: "invert-0 brightness-0 dark:brightness-100 dark:invert-none",
     label: "Ponteto"
 }));
 
 lineTwo.appendChild(createGameButton({
     id: "history",
-    icon: "../assets/public/history.svg",
+    icon: "../../public/icons/history.svg",
     imgClass: "invert-0 brightness-0 dark:brightness-100 dark:invert-none",
     label: "Histórico"
 }));
 
 lineTwo.appendChild(createGameButton({
     id: "rank",
-    icon: "../assets/public/rank.svg",
+    icon: "../../public/icons/rank.svg",
     imgClass: "invert-0 brightness-0 dark:brightness-100 dark:invert-none",
     label: "Ranking"
 }));
@@ -79,6 +79,6 @@ lineTwo.appendChild(createGameButton({
     divClass: "icon-container flex justify-center rounded-full w-14 h-14 border-2 border-[#313E52] overflow-hidden p-0",
     imgClass: "object-cover w-full h-full",
     idImg: "icon-profile",
-    icon: "../assets/public/fotoTeste.jpg",
+    icon: "../../public/testing/cat.jpg",
     label: "Perfil"
 }));
