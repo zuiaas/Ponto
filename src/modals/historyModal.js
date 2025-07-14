@@ -10,7 +10,7 @@ export function createHistory() {
       <div class="flex flex-row items-center">
         <button class="close-modal">
           <div class="flex items-center justify-center w-12 h-12 rounded-full hover:bg-gray-100 dark:hover:bg-white/10">
-            <img src="../assets/public/fechar.svg" class="brightness-0 dark:brightness-100"/>
+            <img src="../../public/icons/close.svg" class="brightness-0 dark:brightness-100"/>
           </div>
         </button>
 
