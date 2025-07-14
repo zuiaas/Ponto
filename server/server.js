@@ -3,7 +3,7 @@ import { db } from './connection.js'
 
 const app = express()
 app.use(express.json())
-app.use(express.static('../scr/pages'));
+app.use(express.static('../src/pages'));
 
 const usuarios = [];
 
