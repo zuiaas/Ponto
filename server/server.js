@@ -21,6 +21,7 @@ app.get('/usuarios', (req, res) => {
     })
 })
 
-app.listen(3000, () => {
-    console.log('\nServidor rodando em', '\x1b[32mhttp://localhost:3000\x1b[0m')
+let port = 3000
+app.listen(port, '0.0.0.0', () => {
+    console.log('\nServidor rodando em', `\x1b[32mhttp://localhost:${port}\x1b[0m`)
 })
