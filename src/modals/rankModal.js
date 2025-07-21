@@ -1,4 +1,5 @@
 export function createRank() {
+
     const modal = document.createElement('div');
     modal.className = 'fixed inset-0 flex items-center justify-center bg-black/20 dark:bg-white/5 backdrop-blur-sm z-50 hidden transition-opacity duration-300 ease-out';
   
@@ -29,6 +30,7 @@ export function createRank() {
                         <div class="w-8 h-8 rounded-full bg-yellow-500 flex items-center justify-center !text-slate-900 font-bold mr-3">1</div>
                         <span class="!text-gray-800 dark:!text-slate-200">João Pedro</span>
                     </div>
+
                     <span class="font-bold !text-yellow-500 dark:!text-yellow-400">1250 pts</span>
                 </div>
 
@@ -37,6 +39,7 @@ export function createRank() {
                         <div class="w-8 h-8 rounded-full bg-gray-400 dark:bg-slate-400 flex items-center justify-center !text-slate-900 font-bold mr-3">2</div>
                         <span class="!text-gray-800 dark:!text-slate-200">Maria Silva</span>
                     </div>
+
                     <span class="font-bold !text-gray-500 dark:!text-slate-300">980 pts</span>
                 </div>
 
@@ -45,6 +48,7 @@ export function createRank() {
                         <div class="w-8 h-8 rounded-full bg-amber-600 dark:bg-amber-700 flex items-center justify-center !text-slate-900 font-bold mr-3">3</div>
                         <span class="!text-gray-800 dark:!text-slate-200">Carlos Eduardo</span>
                     </div>
+
                     <span class="font-bold !text-amber-600 dark:!text-amber-700">875 pts</span>
                 </div>
 
@@ -53,6 +57,7 @@ export function createRank() {
                         <div class="w-8 h-8 rounded-full bg-gray-500 dark:bg-slate-700 flex items-center justify-center !text-gray-100 dark:!text-slate-200 font-bold mr-3">4</div>
                         <span class="!text-gray-800 dark:!text-slate-200">Ana Beatriz</span>
                     </div>
+
                     <span class="font-bold !text-gray-600 dark:!text-slate-200">720 pts</span>
                 </div>
 
@@ -61,6 +66,7 @@ export function createRank() {
                         <div class="w-8 h-8 rounded-full bg-gray-500 dark:bg-slate-700 flex items-center justify-center !text-gray-100 dark:!text-slate-200 font-bold mr-3">5</div>
                         <span class="!text-gray-800 dark:!text-slate-200">Lucas Mendes</span>
                     </div>
+
                     <span class="font-bold !text-gray-600 dark:!text-slate-200">695 pts</span>
                 </div>
 
@@ -69,6 +75,7 @@ export function createRank() {
                         <div class="w-8 h-8 rounded-full bg-cyan-600 dark:bg-cyan-600 flex items-center justify-center !text-gray-100 dark:!text-slate-200 font-bold mr-3">8</div>
                         <span class="!text-gray-800 dark:!text-slate-200">Você</span>
                     </div>
+
                     <span class="font-bold !text-cyan-500 dark:!text-cyan-400">540 pts</span>
                 </div>
             </div>
@@ -88,7 +95,7 @@ export function createRank() {
         } else {
             document.documentElement.classList.remove('dark');
         }
-
+        
         modal.classList.remove('hidden');
         void modal.offsetWidth;
         modal.classList.add('opacity-100');
