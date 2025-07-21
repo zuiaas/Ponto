@@ -9,7 +9,7 @@
         "build:css": "tailwindcss -i ./src/styles/global.css -o ./src/styles/output.css --watch"
     },
     "keywords": [],
-    "author": "@zuiass, @Kayke2707, @MkcSamuel, @JoaoAugusto1509",
+    "author": "@zuiass, @Kayke2707, @JoaoAugusto1509",
     "license": "ISC",
     "devDependencies": {
         "autoprefixer": "^10.4.21",
@@ -19,7 +19,6 @@
         "tailwindcss": "^3.4.17"
     },
     "dependencies": {
-        "axios": "^1.9.0",
-        "mysql2": "^3.14.0"
+        "axios": "^1.9.0"
     }
 }

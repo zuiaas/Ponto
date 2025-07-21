@@ -14,7 +14,7 @@ function createWindow() {
         minHeight: 700,
         frame: false,
         autoHideMenuBar: true,
-        icon: path.join(__dirname, './src/assets/icons/logo.ico'),
+        icon: path.join(__dirname, './public/statics/ponto.ico'),
         // devTools: false,
 
         webPreferences: {
