@@ -37,5 +37,5 @@
 <div align="center">
    Feito com ❤ por<br>
    
-   `@zuiass` `@Kayke2707` `@MkcSamuel` `@JoaoAugusto1509`
+   `@zuiass` `@Kayke2707` `@JoaoAugusto1509`
 </div>
