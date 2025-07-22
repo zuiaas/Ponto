@@ -1,7 +1,10 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: "https://ponto.vstec.net"
+    baseURL: "https://ponto.vstec.net",
+    headers: {
+        "Content-Type": "application/json"
+    }
 });
 
 export default api;
