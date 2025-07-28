@@ -11,18 +11,7 @@ import { createRank } from '../modals/rankModal.js';
 // S C R I P T S //
 
 document.addEventListener('DOMContentLoaded', () => {
-
-    function updateLogo() {
-        const logo = document.getElementById("ponto-image");
-        const bodyClasses = document.body.classList;
-
-        if (bodyClasses.contains("dark")) {
-            logo.src = "../assets/public/home.png";
-        } else {
-            logo.src = "../assets/public/lightHome.svg";
-        }
-    } updateLogo();
-
+    
     const loginModal = createLogin();
     const registerModal = createRegister();
     const recoverModal = createRecover();

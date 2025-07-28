@@ -8,7 +8,7 @@
 /* G L O B A L S */
 
 @font-face {
-    src: url('../assets/fonts/Outfit.ttf') format('truetype');
+    src: url('../../public/fonts/Outfit.ttf') format('truetype');
     font-family: 'Outfit';
 }
 

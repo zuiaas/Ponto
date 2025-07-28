@@ -1,13 +1,13 @@
 export function createWindowControls() {
     return `
-        <header id="title-bar" class="fixed border-b-[1px] border-gray-600 top-0 left-0 right-0 flex justify-end items-center dark:bg-game-surface/50 bg-slate-300 h-10 select-none" style="-webkit-app-region: drag; z-index: 1000;">
+        <header id="title-bar" class="fixed border-b-[1px] border-gray-600 top-0 left-0 right-0 flex justify-end items-center bg-game-surface/50 h-10 select-none" style="-webkit-app-region: drag; z-index: 1000;">
             <div id="window-controls" class="flex gap-[1px] pr-[1px]" style="-webkit-app-region: no-drag;">
-                <button id="minimize" class="dark:hover:bg-gray-600 hover:bg-gray-300 px-4 py-2 flex justify-center" title="Minimizar">
+                <button id="minimize" class="hover:bg-gray-600  px-4 py-2 flex justify-center" title="Minimizar">
                     <img src="../../public/statics/minimize.svg">
                 </button>
         
-                <button id="maximize" class="dark:hover:bg-gray-600 hover:bg-gray-300 px-4 py-2 flex justify-center" title="Maximizar">
-                    <img src="../../public/statics/maximize.svg" id="maximize-icon">
+                <button id="maximize" class="hover:bg-gray-600  px-4 py-2 flex justify-center" title="Maximizar">
+                    <img src="../../public/statics/restore.svg" id="maximize-icon">
                 </button>
         
                 <button id="close" class="hover:bg-[#ff0909] px-4 py-2 flex justify-center" title="Fechar">
@@ -39,10 +39,10 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!icon) return;
 
         if (isMaximized) {
-            icon.src = '../assets/public/restore.svg';
+            icon.src = '../../public/statics/restore.svg';
             maximize.title = 'Restaurar';
         } else {
-            icon.src = '../assets/public/maximize.svg';
+            icon.src = '../../public/statics/maximize.svg';
             maximize.title = 'Maximizar';
         }
     });
